@@ -2,11 +2,11 @@ import styled from 'styled-components';
 import db from '../db.json';
 
 // components
-import Widget from './src/components/Widget'
-import Footer from './src/components/Footer'
-import QuizBackground from './src/components/QuizBackground'
-import QuizContainer from './src/components/QuizContainer'
-import GitHubCorner from './src/components/GitHubCorner'
+import Widget from '../src/components/Widget'
+import Footer from '../src/components/Footer'
+import QuizBackground from '../src/components/QuizBackground'
+import QuizContainer from '../src/components/QuizContainer'
+import GitHubCorner from '../src/components/GitHubCorner'
 
 export default function Home() {
   return(

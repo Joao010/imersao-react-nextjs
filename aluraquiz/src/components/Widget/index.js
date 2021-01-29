@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import db from '../../../../db.json'
+import db from '../../../db.json'
 
 const {success, contrastText} = db.theme.colors
 
