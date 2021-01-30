@@ -2,7 +2,7 @@ import propTypes from 'prop-types';
 import styled from 'styled-components';
 import db from '../../../db.json';
 
-const {borderRadius} = db.theme
+const {borderRadius} = db.theme;
 const {secondary, contrastText, disabled1} = db.theme.colors;
 
 const Button = styled.button`

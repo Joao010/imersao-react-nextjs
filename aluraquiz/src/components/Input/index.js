@@ -1,7 +1,7 @@
 import React from 'react';
-import propTypes from 'prop-types'
-import styled from 'styled-components'
-import db from '../../../db.json'
+import propTypes from 'prop-types';
+import styled from 'styled-components';
+import db from '../../../db.json';
 
 export default function Input({setValue, ...props}){
   return(

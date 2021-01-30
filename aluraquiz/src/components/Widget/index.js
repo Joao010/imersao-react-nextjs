@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import db from '../../../db.json'
+import db from '../../../db.json';
 
-const {primary, contrastText, mainDark} = db.theme.colors
+const {primary, contrastText, mainDark} = db.theme.colors;
 
 const Widget = styled.div`
   margin: 24px 0 24px 0;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import db from '../../../db.json'
+import db from '../../../db.json';
 
 // eslint-disable-next-line react/prop-types
 export default function GitHubCorner({ projectUrl }) {
@@ -17,7 +17,7 @@ export default function GitHubCorner({ projectUrl }) {
   );
 }
 
-const {wrong, contrastText} = db.theme.colors
+const {wrong, contrastText} = db.theme.colors;
 
 const Wrapper = styled.div`
   position: absolute;
