@@ -10,7 +10,7 @@ export default function Input({setValue, ...props}){
     
     {...props}
     />
-  )
+  );
 }
 
 const {borderRadius} = db.theme;
