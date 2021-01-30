@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import db from '../../../db.json'
 
-const {success, contrastText} = db.theme.colors
+const {primary, contrastText, mainDark} = db.theme.colors
 
 const Widget = styled.div`
   margin: 24px 0 24px 0;
-  border: 1px solid ${success};
-  background-color: #1c1814;
+  border: 1px solid ${primary};
+  background-color: ${mainDark};
   overflow: hidden;
   color: ${contrastText};
 
@@ -29,7 +29,7 @@ Widget.Header = styled.header`
   justify-content: flex-start;
   align-items: center;
   padding: 18px 32px;
-  background-color: ${ ({theme}) => theme.colors.success };
+  background-color: ${primary};
 
   *{
     margin: 0;
